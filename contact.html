@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        Email :
+        <a
+          href="https://www.google.com/search?q=gmail&rlz=1C1JJTC_enIN985IN985&oq=gmail&aqs=chrome..69i57j0i131i433i512l2j0i433i512j0i131i433i512j0i433i512j0i131i433i512l2j0i433i512j0i271.1510j0j15&sourceid=chrome&ie=UTF-8"
+          target="_blank"
+        >
+          click here
+        </a>
+        <br />
+        Mobile : +63 254632
+      </div>
+    </header>
+    <hr size="4" color="black" />
+    <div>
+      <form
+        action="mailto:vohraaman2002@gmail.com"
+        enctype="text/plain"
+        method="post"
+      >
+        <label for="name">
+          Enter your Name
+          <input
+            type="text"
+            name="Name"
+            placeholder="Name"
+            required
+            autocomplete="on"
+          />
+        </label>
+        <br />
+        <label for="dob">
+          Your Birthday
+          <input
+            type="date"
+            name="dateofbirth"
+            id="dob"
+            required
+            autocomplete="on"
+          />
+        </label>
+        <br />
+        <label for="color">
+            Select your fav color
+            <input type="color" name="color" value="color" />
+        </label>
+        <br />
+        
+        <label for="ema">
+            Enter your email address
+            <input type="email" name="ema" id="ema" placeholder="Email" />
+        </label>
+        <br />
+        <label for="fi">
+            Choose file
+            <input type="file" name="file" id="fi" multiple />
+        </label>
+        <br />
+        <label for="ph"
+        >Photo
+        <input
+        type="image"
+        src="aman.png"
+        name="Photos"
+        id="ph"
+        alt="Error"
+            width="100"
+            />
+        </label>
+        <br />
+        <hr />
+        <label for="c">
+            Do you want ice cream ?
+            <input type="checkbox" name="check" />
+        </label>
+        <br />
+        <input
+        type="button"
+        name="but"
+        id="but"
+        onclick="alert('Hello World')"
+        value="click me "
+        />
+        <br />
+        <textarea
+        name="information"
+        id="info"
+        cols="30"
+        rows="10"
+        placeholder="Enter your message "
+        ></textarea>
+        <br />
+        <input type="submit" />
+        <input type="reset" />
+    </form>
+</div>
+</body>
+</html>
+
+<!-- ERROR 
+<label for="rad"> Radio :
+</label>
+    <input type="radio" name="radio" id="rad" value="A"> A <br>
+    
+    <input type="radio" name="radio1" id="rad1" value="B"> B 
+<br> -->
+
+<!-- Some formatting Error
+<label for="pass">
+    <input type="password" name="pass" placeholder="Enter your password" required pattern="[0]">
+</label> -->

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <h1>Creating a Table in HTML</h1>
+      <table border="1" bgcolor="grey">
+        <!-- all styling attributes are dpreceted in html as it is used for creating structure and not styling for styling we use CSS -->
+        <caption>
+          <strong>Runs Scored in IND vs AUS </strong>
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Order</th>
+            <th scope="col">Name</th>
+            <th scope="col">Runs Scored</th>
+            <th scope="col">Balls Played</th>
+            <th scope="col">Strike rate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <th scope="row">Rohit</th>
+            <td>213</td>
+            <td>104</td>
+            <td>202.3</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <th scope="row">Rahul</th>
+            <td>160</td>
+            <td>120</td>
+            <td>130.2</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <th scope="row" colspan="4">Total runs scored</th>
+          <td>373</td>
+        </tfoot>
+      </table>
+    </section>
+
+    <br />
+    <hr size="5" />
+
+    <!-- Nesting Of Tables -->
+    <section>
+        <h3>Nesting of Tables 🤷‍♀️</h3>
+      <table cellspacing="10" border="3">
+        <caption>
+          <h3>My Skills</h3>
+        </caption>
+        <tr>
+          <td>
+            <table bgcolor="red">
+              <tr>
+                <td>Web Developnment</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>IOS Developer</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table bgcolor="orange">
+              <tr>
+                <td>Reading</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Swimming</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+  </body>
+</html>
